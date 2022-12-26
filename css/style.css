@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+*{
+  font-family: "Poppins" , sans-serif;
+}
+
+body{
+    background: #067eba;
+    height: 100vh;
+    font-family: 'Rufina', serif;
+}
+
+
+/*Start Login */
+.logInSection{
+    height: 600px;
+}
+
+.sectionSignUp{
+    padding-top: 20px;
+    height: 800px;
+}
+
+.contact{
+    height: 600px;
+}
+
+.hrline{
+    width: 100%;
+    background-color: rgb(87, 79, 79);
+    height: 1px;
+    position: relative;
+}
+
+.barLine{
+    position: absolute;
+    background-color: orange;
+    width: 25%;
+    height: 3px;
+    top: 0;
+    bottom: 0;
+    transform: translateY(-50%);
+}
+
+.companyInfo{
+    display: flex;
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+
+}
+
+.inputImg{
+    position: absolute;
+    /* transform: translateX(100%); */
+    background-color: transparent;
+    /* top: 100%; */
+    bottom: 50%;
+    /* top: 50%; */
+    right: 2%;
+    transform: translateY(50%);
+}
+
+.upload{
+    border: rgb(74, 117, 177) dotted 3px;
+}
